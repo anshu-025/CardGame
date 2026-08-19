@@ -1,0 +1,23 @@
+# Java / Maven
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# React
+node_modules/
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
