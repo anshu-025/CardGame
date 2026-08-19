@@ -10,8 +10,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/games")
 @CrossOrigin(origins = {
-        "http://localhost:5173",
-        "http://localhost:5174"
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "https://cardgame-1-4rik.onrender.com"
 })
 public class GameController {
 
